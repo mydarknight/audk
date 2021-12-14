@@ -25,9 +25,9 @@ WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
 #if DEBUG_BI==0
 #define DBG(...)
 #elif DEBUG_BI == 1
-#define DBG(...) MemLog(TRUE, 1, __VA_ARGS__)
+#define DBG(...)
 #else
-#define DBG(...) MemLog(TRUE, 0, __VA_ARGS__)
+#define DBG(...)
 #endif
 
 
